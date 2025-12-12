@@ -1,7 +1,8 @@
 /* Variables y Reset Básico */
 :root {
-	--color-primary: #00d0d0;
+	--color-primary: #0e9dad;
 	--color-accent: #1a3b5d;
+	--color-secondary: #1f6289;
 	--color-bg-light: #f8f9fb;
 	--color-bg-dark: #1a3b5d;
 	--color-text-dark: #2c3e50;
@@ -9,7 +10,7 @@
 	--color-white: #ffffff;
 	--font-main: 'Poppins', sans-serif;
 	--box-shadow-light: 0 4px 12px rgba(0, 0, 0, 0.08);
-	--box-shadow-medium: 0 8px 24px rgba(0, 208, 208, 0.12);
+	--box-shadow-medium: 0 8px 24px rgba(14, 157, 173, 0.12);
 }
 
 * {
@@ -83,7 +84,7 @@ p {
 }
 
 .btn-primary:hover {
-	background: #00b8b8;
+	background: #0c8a98;
 	transform: translateY(-2px);
 	box-shadow: var(--box-shadow-medium);
 }
@@ -219,7 +220,7 @@ header {
 
 .nav-menu .btn:hover {
 	transform: translateY(-2px);
-	box-shadow: 0 8px 25px rgba(18, 163, 176, 0.4);
+	box-shadow: 0 8px 25px rgba(14, 157, 173, 0.4);
 }
 
 /* Mobile Navigation Styles */
@@ -276,7 +277,7 @@ header {
 		width: 100%;
 		text-align: left;
 		padding: 15px 0;
-		border-bottom: 1px solid rgba(0, 208, 208, 0.2);
+		border-bottom: 1px solid rgba(14, 157, 173, 0.2);
 		color: var(--color-text-light);
 	}
 
@@ -668,7 +669,7 @@ section h2 {
 	padding: 50px 40px;
 	background: var(--color-bg-light);
 	border-radius: 15px;
-	border: 1px solid rgba(18, 163, 176, 0.1);
+	border: 1px solid rgba(14, 157, 173, 0.1);
 	margin-bottom: 60px;
 }
 
@@ -699,7 +700,7 @@ section h2 {
 	padding: 28px 20px;
 	background: var(--color-bg-light);
 	border-radius: 8px;
-	border: 1px solid rgba(0, 208, 208, 0.1);
+	border: 1px solid rgba(14, 157, 173, 0.1);
 	transition: all 0.2s ease;
 	box-shadow: var(--box-shadow-light);
 }
@@ -736,7 +737,7 @@ section h2 {
 	padding: 45px 35px;
 	border-radius: 8px;
 	box-shadow: var(--box-shadow-light);
-	border: 1px solid rgba(0, 208, 208, 0.1);
+	border: 1px solid rgba(14, 157, 173, 0.1);
 	margin-top: 20px;
 	overflow: visible;
 	min-height: auto;
@@ -808,7 +809,7 @@ section h2 {
 .form-group textarea:focus {
 	outline: none;
 	border-color: var(--color-primary);
-	box-shadow: 0 0 0 3px rgba(0, 208, 208, 0.1);
+	box-shadow: 0 0 0 3px rgba(14, 157, 173, 0.1);
 }
 
 .form-group textarea {
@@ -847,12 +848,12 @@ section h2 {
 
 .file-input-label:hover {
 	border-color: var(--color-primary);
-	background: rgba(0, 208, 208, 0.05);
+	background: rgba(14, 157, 173, 0.05);
 }
 
 .file-input-label.file-selected {
 	border-color: var(--color-primary);
-	background: rgba(0, 208, 208, 0.1);
+	background: rgba(14, 157, 173, 0.1);
 }
 
 .file-input-label i {
@@ -948,7 +949,7 @@ section h2 {
 
 .submit-btn:hover {
 	transform: translateY(-2px);
-	background: #00b8b8;
+	background: #0c8a98;
 	box-shadow: var(--box-shadow-medium);
 }
 
@@ -956,7 +957,7 @@ section h2 {
 .form-success {
 	text-align: center;
 	padding: 40px;
-	background: rgba(0, 208, 208, 0.08);
+	background: rgba(14, 157, 173, 0.08);
 	border-radius: 8px;
 	border: 2px solid var(--color-primary);
 }
@@ -1022,15 +1023,15 @@ section h2 {
 }
 
 .contact-method {
-	background: rgba(0, 208, 208, 0.1);
+	background: rgba(14, 157, 173, 0.1);
 	padding: 28px 20px;
 	border-radius: 8px;
-	border: 1px solid rgba(0, 208, 208, 0.2);
+	border: 1px solid rgba(14, 157, 173, 0.2);
 	transition: all 0.2s ease;
 }
 
 .contact-method:hover {
-	background: rgba(0, 208, 208, 0.15);
+	background: rgba(14, 157, 173, 0.15);
 	transform: translateY(-3px);
 	border-color: var(--color-primary);
 }
@@ -1162,7 +1163,7 @@ section h2 {
 .legal-section-content {
 	margin-bottom: 40px;
 	padding-bottom: 30px;
-	border-bottom: 1px solid rgba(18, 163, 176, 0.1);
+	border-bottom: 1px solid rgba(14, 157, 173, 0.1);
 }
 
 .legal-section-content:last-of-type {
@@ -1385,7 +1386,7 @@ footer .section-connector {
 
 footer .section-connector h2 {
 	color: white;
-	background-color: #12a3b0;
+	background-color: #0e9dad;
 	padding: 5px 15px;
 	border-radius: 40px;
 	margin: 0 !important;
