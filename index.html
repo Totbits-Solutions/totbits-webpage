@@ -21,9 +21,25 @@
             <h1>Estamos Construyendo el Futuro.</h1>
             <p>Nuestra nueva plataforma digital está en camino. Estamos trabajando arduamente para brindarte la mejor experiencia en soluciones tecnológicas.</p>
             
-            <div class="countdown-wrapper">
-                <div id="countdown" class="countdown">
-                    <!-- Countdown will be injected here -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <p class="progress-text">Optimizando sistemas para el lanzamiento</p>
+            </div>
+
+            <div class="teaser-grid">
+                <div class="teaser-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Software a Medida</h3>
+                </div>
+                <div class="teaser-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>IA & Machine Learning</h3>
+                </div>
+                <div class="teaser-item">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Cloud & Devops</h3>
                 </div>
             </div>
 
@@ -37,36 +53,6 @@
             <p>&copy; 2024 Totbits Solutions. Innovación y Estrategia Digital.</p>
         </div>
     </div>
-
-    <script>
-        const targetDate = new Date();
-        targetDate.setDate(targetDate.getDate() + 15);
-
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = targetDate - now;
-
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            document.getElementById("countdown").innerHTML = `
-                <div class="countdown-item"><span>${days}</span> Días</div>
-                <div class="countdown-item"><span>${hours}</span> Horas</div>
-                <div class="countdown-item"><span>${minutes}</span> Mins</div>
-                <div class="countdown-item"><span>${seconds}</span> Segs</div>
-            `;
-
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "¡PRONTO!";
-            }
-        }
-
-        const x = setInterval(updateCountdown, 1000);
-        updateCountdown();
-    </script>
 </body>
 
 </html>
