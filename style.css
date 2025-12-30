@@ -2199,3 +2199,96 @@ footer .section-connector h2 {
 		min-width: 180px;
 	}
 }
+
+/* --- Coming Soon Section --- */
+.coming-soon-container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 20px;
+	background-color: var(--color-bg-dark);
+	color: var(--color-text-light);
+	text-align: center;
+}
+
+.coming-soon-container .logo {
+	margin-bottom: 60px;
+}
+
+.coming-soon-container .logo img {
+	width: 200px;
+	filter: brightness(0) invert(1);
+}
+
+.coming-soon-container .content {
+	max-width: 800px;
+	margin-bottom: 60px;
+}
+
+.coming-soon-container h1 {
+	font-size: 4rem;
+	color: var(--color-white);
+	margin-bottom: 1.5rem;
+}
+
+.coming-soon-container p {
+	font-size: 1.2rem;
+	margin-bottom: 2.5rem;
+	opacity: 0.9;
+}
+
+.countdown-wrapper {
+	margin-bottom: 50px;
+}
+
+.countdown {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+.countdown-item {
+	background: rgba(255, 255, 255, 0.05);
+	padding: 20px;
+	border-radius: 12px;
+	min-width: 120px;
+	border: 1px solid rgba(14, 157, 173, 0.3);
+}
+
+.countdown-item span {
+	display: block;
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--color-primary);
+	margin-bottom: 5px;
+}
+
+.footer-simple {
+	margin-top: auto;
+	padding: 20px;
+	font-size: 0.9rem;
+	opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+	.coming-soon-container h1 {
+		font-size: 2.8rem;
+	}
+	
+	.countdown {
+		gap: 15px;
+	}
+	
+	.countdown-item {
+		min-width: 90px;
+		padding: 15px 10px;
+	}
+	
+	.countdown-item span {
+		font-size: 1.8rem;
+	}
+}
+
